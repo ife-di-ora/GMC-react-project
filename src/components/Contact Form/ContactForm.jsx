@@ -1,7 +1,9 @@
-import { Form, Button } from "react-bootstrap";
+// import components to be used in creating contact form
 
+import { Form, Button } from "react-bootstrap";
 import React from "react";
 
+// create contact form
 const ContactForm = () => {
   return (
     <Form>
@@ -30,4 +32,5 @@ const ContactForm = () => {
   );
 };
 
+// export contact form
 export default ContactForm;

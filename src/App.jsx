@@ -1,8 +1,11 @@
+// import all the created components
+
 import { Fragment } from "react";
 import Navbars from "./components/Navbar/Navbar";
 import Cards from "./components/Card/Card";
 import ContactForm from "./components/Contact Form/ContactForm";
 
+// assemble app
 function App() {
   return (
     <Fragment>
@@ -19,4 +22,5 @@ function App() {
   );
 }
 
+// export app
 export default App;

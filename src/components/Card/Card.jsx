@@ -1,7 +1,9 @@
+// import all components to be used
 import { Card, Button, CardImg } from "react-bootstrap";
 import "./Card.css";
 import { foodCards } from "../../data";
 
+// create the card component
 const Cards = () => {
   return (
     <>
@@ -23,4 +25,5 @@ const Cards = () => {
   );
 };
 
+// export the card component
 export default Cards;

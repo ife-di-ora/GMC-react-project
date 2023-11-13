@@ -1,6 +1,9 @@
+// import components to be used in creating navbar
+
 import { Container, Form, Nav, Navbar } from "react-bootstrap";
 import React from "react";
 
+// create navbar
 const Navbars = () => {
   return (
     <>
@@ -21,4 +24,5 @@ const Navbars = () => {
   );
 };
 
+//export navbar
 export default Navbars;
