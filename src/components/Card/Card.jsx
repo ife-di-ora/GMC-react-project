@@ -12,7 +12,7 @@ const Cards = () => {
               <CardImg src={item.image} alt="newfood" className="cardPhoto" />
               <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
-                <Card.Text>₦{item.price}</Card.Text>
+                <Card.Text>₦{Intl.NumberFormat().format(item.price)}</Card.Text>
                 <Button variant="danger">Order Now</Button>
               </Card.Body>
             </Card>
